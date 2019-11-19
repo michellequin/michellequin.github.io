@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Michelle Quin</title>
+	<link rel="icon" href="images/icon.ico">
+
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+		<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	  <script>
+	  function play1(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+   </script>
+
+   <script>
+  function play2(){
+       var audio2 = document.getElementById("audio2");
+       audio2.volume = 0.5;
+       audio2.play();
+                 }
+   </script>
+<script>
+ function play3(){
+       var audio3 = document.getElementById("audio3");
+       audio3.volume = 0.8;
+       audio3.play();
+                 }
+                 </script>
+	<style type="text/css">
+    span.name { color:#F32601 }
+    </style>
+	</head>
+	<body>
+
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="fh5co-top-logo">
+				<div id="fh5co-logo"><a href="index.html" onclick="audio.pause();audio2.pause();audio3.pause()">Michelle <span class="name">Quin</span></a></div>
+			</div>
+			<div class="fh5co-top-menu menu-1 text-center">
+				<ul>
+					<li class="active"><a href="portfolio.html" onclick="audio.pause();audio2.pause();audio3.pause()">Portfolio</a></li>
+					<li><a href="about.html" onclick="audio.pause();audio2.pause();audio3.pause()">About</a></li>
+					<li><a href="resume.html" onclick="audio.pause();audio2.pause();audio3.pause()">Resume</a></li>
+				</ul>
+			</div>
+			<div class="fh5co-top-social menu-1 text-right">
+				<ul class="fh5co-social">
+					<li><a href="https://www.linkedin.com/in/michelle-quin/" target="_blank"><i class="icon-linkedin"></i></a></li>
+					<li><a href="https://github.com/michellequin" target="_blank"><i class="icon-github"></i></a></li>
+					<li><a href="https://www.instagram.com/michellealice.q/" target="_blank"><i class="icon-instagram"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="fh5co-work">
+		<div class="container">
+			<div class="row top-line animate-box">
+				<div class="col-md-8 text-left intro">
+					<h2>Around the World</h2>
+					<span class="fh5co-highlight" style="color:#303538">Interactive speaker exhibit with motion-triggered dialogue and voiceovers</span>
+					<p>Fall 2016, Computer Music</p>
+					<p>I was inspired to create this project after amassing a collection of voicemails, interview audio and random recordings of people near and dear to my heart, from around the world. Using Max software, I rigged an Arduino with motion-detecting sensors to four standing speakers, with various triggers depending on user proximity to one or more speakers.</p>
+					
+					<p>The result: an interactive exhibit of continuously overlapping, unique combinations of voices made open to the public at the Wellesley College Jewett Art Center in December 2016. Only one Arduino was fried in the process.</p>
+
+					<div class="role">
+						<h3>Technology used</h3>
+						<ul>
+							<li>Max Cycling '74 Software</li>
+							<li>Max/MSP/Jitter</li>
+							<li>Arduino</li>
+							<li>PIR Motion Sensors</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<p class="animate-box"><img src="images/mus/music.jpg" class="img-responsive" alt="interactive speaker exhibit"></p>
+					<div class="testimony animate-box">
+					<h3> The Goal </h3>
+					<p>Immersion into a whole world of conversations. Step between the four speakers, walk around, wave your hands at them - the possibilities are endless. You might hear two speakers arguing with each other over the correct pronunciation of "garage." You might hear a speaker frantically shout in Shanghainese over the noise of a busy subway station. If you lean in carefully, you might even hear a 90-year-old woman recollect how she met her husband, drunk at a UCLA party, 72 years ago.</p>
+
+				</div>
+				
+			</div>
+			<div class="col-md-8 col-md-offset-2">
+					<p class="animate-box"><img src="images/mus/maxcode.png" class="img-responsive" alt="speaker code on max software"></p>
+					<div class="testimony animate-box">
+							<h3> Try it Out! </h3>
+							<p>Click on the images below to play three audio clips used in my exhibit. Either play them separately or overlapping to mimic the experience of the in-person exhibit (recommended: click and play all three at once to start).</p>
+					</div>
+					</div>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 text-center animate-box">
+							<a class="work">
+							<audio id="audio" src="images/mus/ruth_love.m4a" preload="auto"></audio>
+								<div class="work-grid" style="background-image:url(images/mus/ruth.jpg);" onclick="play1()">
+									<div class="inner">
+										<div class="desc">
+											<h3>Ruth</h3>
+											<span class="cat">90-year-old jewelry maker at her home in Newton, MA</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<a class="work">
+							<audio id="audio2" src="images/mus/romford_fire.m4a"></audio>
+								<div class="work-grid" style="background-image:url(images/mus/yelena.jpg);" value="PLAY" onclick="play2()">
+									<div class="inner">
+										<div class="desc">
+											<h3>Yelena</h3>
+											<span class="cat">30-year-old baker at a bonfire in Romford, UK</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<a class="work">
+							<audio id="audio3" src="images/mus/priscilla_song.m4a"></audio>
+								<div class="work-grid" style="background-image:url(images/mus/priscilla.jpg);" value="PLAY" onclick="play3()">
+									<div class="inner">
+										<div class="desc">
+											<h3>Priscilla</h3>
+											<span class="cat">20-year-old student singing at 7 a.m. in Anaheim, CA</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				
+				<div class="col-md-8 col-md-offset-2">
+					<div class="row row-pt-md portfolio-navigation">
+						<div class="col-xs-4 text-left">
+							<a href="portfolio4.html" onclick="audio.pause();audio2.pause();audio3.pause()" class="btn btn-primary btn-outline"><i class="icon-chevron-left"></i> Prev </a>
+						</div>
+						<div class="col-xs-4 text-center">
+							<a href="portfolio.html" onclick="audio.pause();audio2.pause();audio3.pause()" class="btn btn-primary btn-outline"><i class="icon-grid2"></i> View All</a>
+						</div>
+						<div class="col-xs-4 text-right">
+							<a href="portfolio6.html" onclick="audio.pause();audio2.pause();audio3.pause()" class="btn btn-primary btn-outline">Next <i class="icon-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-started">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>hello world;</h2>
+					<p>Have feedback, questions or just want to say hello? Feel free to reach out!</p>
+					<p><a href="mailto:michelle.alice.quin@gmail.com" class="btn btn-primary">CONTACT ME</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<footer id="fh5co-footer" role="contentinfo">
+	<div class="container">
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2019 Michelle Quin. All Rights Reserved.</small> 
+					</p>
+					
+					<ul class="fh5co-social-icons">
+								<li><a href="https://www.linkedin.com/in/michelle-quin/" target="_blank"><i class="icon-linkedin"></i></a></li>
+					<li><a href="https://github.com/michellequin" target="_blank"><i class="icon-github"></i></a></li>
+					<li><a href="https://www.instagram.com/michellealice.q/" target="_blank"><i class="icon-instagram"></i></a></li>
+					<li><a href="banana.html" onclick="audio.pause();audio2.pause();audio3.pause()"><i class="icon-heart2"></i></a></li>
+					<!--<li><a href="https://devpost.com/mquin" target="_blank"><i class="icon-code"></i></a></li>-->
+					
+				</div>
+			</div>
+
+	</footer>
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
