@@ -393,6 +393,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-started,
 #fh5co-author,
+#fh5co-author2,
 #fh5co-work,
 #fh5co-about,
 #fh5co-contact,
@@ -403,6 +404,9 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   #fh5co-started,
   #fh5co-author,
+  #fh5co-author2, {
+    padding: 1em 0;
+  }
   #fh5co-work,
   #fh5co-about,
   #fh5co-contact,
