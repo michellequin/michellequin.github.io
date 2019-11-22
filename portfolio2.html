@@ -67,20 +67,21 @@
 			<div class="row top-line animate-box">
 				<div class="col-md-8 text-left intro">
 					<h2>Portrade</h2>
-					<span class="fh5co-highlight" style="color:#303538">Interactive speaker exhibit with motion-triggered dialogue and voiceovers</span>
+					<span class="fh5co-highlight" style="color:#303538">Anonymous photo sharing UI/UX design and research</span>
 					<p>Summer 2018, Berkman Klein Center for Internet &amp; Society</p>
-					<p>I was inspired to create this project after amassing a collection of voicemails, interview audio and random recordings of people near and dear to my heart, from around the world. Using Max software, I rigged an Arduino with motion-detecting sensors to four standing speakers, with various triggers depending on user proximity to one or more speakers.</p>
+					<p>Working with the Berkman Klein Center and the Harvard Library Innovation Lab, I was tasked to come up with my own project idea and dive in with the resources at hand. The topic I chose:</p>
+
+					<p><i>3 Photos, 2 Strangers, 1 Day: Perspective and Empathy Through Paired Anonymous Photo Sharing.</i></p>
 					
-					<p>The result: an interactive exhibit of continuously overlapping, unique combinations of voices made open to the public at the Wellesley College Jewett Art Center in December 2016. Only one Arduino was fried in the process.</p>
+					<p>My three-phase study explored privacy and behavior in photo sharing from the standpoint of user experience and interaction. Each phase involved users being asked to exchange photos of their day with no context. The aim was to provoke empathy, self-reflection and broader perspectives by analyzing user behavior and patterns in (1) a mobile experiment, (2) an online-based experiment and (3) a mobile app prototype, <i>Portrade</i>.</p>
 
 					<div class="role">
 						<h3>Technology used</h3>
 						<ul>
-							<li>Max Cycling '74 Software</li>
-							<li>Max/MSP/Jitter</li>
-							<li>Audacity</li>
-							<li>Arduino</li>
-							<li>PIR Motion Sensors</li>
+							<li>JQuery</li>
+							<li>HTML/CSS</li>
+							<li>PHP</li>
+							<li>Heroku</li>
 						</ul>
 					</div>
 				</div>
@@ -88,16 +89,19 @@
 			</div>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<p class="animate-box"><img src="images/portrade/portrade.png" class="img-responsive" alt="screenshot of home screens of portrade app"></p>
+				<div class="animate-box">
+					<p><img src="images/portrade/portrade.png" class="img-responsive" alt="screenshot of home screens of portrade app"></p>
 					<p><img src="images/portrade/portrade1.png" class="img-responsive" alt="screenshot of portrade app functionalities"></p>
+					</div>
 					<div class="testimony animate-box">
-					<p>Immersion into a whole world of conversations. Step between the four speakers, walk around, wave your hands at them - the possibilities are endless. You might hear two speakers arguing with each other over the correct pronunciation of "garage." You might hear a speaker frantically shout in Shanghainese over the noise of a busy subway station. If you lean in carefully, you might even hear a 90-year-old woman recollect how she first met her husband, drunk at a UCLA party, 72 years ago.</p>
+					<p>Why photo sharing? As the global social and cultural norms around privacy and emotional engagement have shifted, the mainstream uses of photography have expanded to include the propagation of a curated self-identity as well as of the vicarious experience of multiple everyday realities, i.e. minute-by-minute “digital storytelling”. I wanted to know: how do users curate their digital presence through photography? How do users perceive themselves and others through shared photos?</p>
+					<p>My project culminated with the development of <i>Portrade</i>, an anonymous photo-sharing app. Users upload 3 photos and immediately receive 3 photos from another user in return. Their photos are then stored in the server to be sent to a future user. The app includes a side-by-side photo comparison archive. </p>
 					<div class="text-center animate-box">
 				
 					
 
 				<p><img src="images/portrade/use_sketch.png" class="img-responsive" alt="use sketch of app and studies" style="display: block;margin-left: auto;margin-right: auto;width:50%"></p>	<br>
-				<a href="https://drive.google.com/file/d/1bPgfuvMMheKg-oRXk7DSl3HrU57uX16l/view?usp=sharing" class="btn btn-primary" target="_blank">Research Abstract</a>
+				<a href="https://drive.google.com/file/d/1bPgfuvMMheKg-oRXk7DSl3HrU57uX16l/view?usp=sharing" class="btn btn-primary btn-outline" target="_blank">Research Abstract</a>
 				</div>
 
 				</div>
@@ -105,19 +109,23 @@
 			</div>
 				<div class="col-md-8 col-md-offset-2 animate-box">
 					<h3> Phase 1 </h3>
-					<p>Immersion into a whole world of conversations. Step between the four speakers, walk around, wave your hands at them - the possibilities are endless. You might hear two speakers arguing with each other over the correct pronunciation of "garage." You might hear a speaker frantically shout in Shanghainese over the noise of a busy subway station.</p>
+					<p>The Phase 1 studies ran for three days with 10 participants per day from the United States, United Kingdom and Germany. Participants were randomly paired and told to take 5 photos throughout their day. They were then tasked to send the 5 photos to their paired participant via WhatsApp, and to not exchange text or self-identifying information. No guidelines were given as to the content or editing of the photos themselves. Day 1 and Day 2 were run with mutual pairings, while Day 3 was run with non-mutual pairings. 150 photos were shared in total.</p>
+					<p> Participants in the Phase 1 WhatsApp studies tended to share social photos above all other categories, with 63 of the 150 photos (42%) showing people or social gatherings, followed by 27.33% landscape, 12.67% food, 10.67% object and 7.33% animal photos. <i>Keywords: Social Photos and Contextualization </i></p>
 					<p class="animate-box"><img src="images/portrade/phase1.png" class="img-responsive" alt="phase 1 of user studies on WhatsApp"></p><br>
 				
 			</div>
 
 			<div class="col-md-8 col-md-offset-2 animate-box">
 				<h3> Phase 2 </h3>
-					<p>Use the images below to play three audio clips from my exhibit. Either play them separately or overlapping to mimic the experience of the in-person display (recommended: click and play all three at once to start).</p>
+					<p>The Phase 2 studies consisted of a similar task to the Phase 1 studies, with the main differences being the use of a desktop platform versus a mobile one, and of indirect communication via a centralized form versus direct messaging. Phase 2 was conducted over Google Forms, with participants asked to take 3 photos (reduced from 5 due to Phase 1 user feedback) throughout their day and upload them.</p>
+					<p>In Phase 2, no participants censored faces or edited text onto their photos. Accompanying text captions were entirely prevented due to the Google Form formatting, making Phase 2’s submissions purely photo media. Over half of the 36 shared photos (52.78%) were landscape images, followed by 22.22% social, 13.89% object, 11.11% food and 0% animal photos. <i>Keywords: Landscape Photos and Motivation</i></p>
 					<p class="animate-box"><img src="images/portrade/phase2.png" class="img-responsive" alt="phase 2 of user studies on WhatsApp"></p><br>
 					</div>
 			<div class="col-md-8 col-md-offset-2 animate-box">
 				<h3> Phase 3 </h3>
-					<p>Use the images below to play three audio clips from my exhibit. Either play them separately or overlapping to mimic the experience of the in-person display (recommended: click and play all three at once to start).</p>
+					<p>For Phase 3, I built anonymous photo-sharing app <i>Portrade</i> based off of Phase 1 and Phase 2 feedback. Portrade retained the 3-photo, centralized aspects of Phase 2 and the mobile, non-mutual pairing aspects of Phase 1.</p>
+
+					<p>The next step would be to further develop <i>Portrade</i> to incorporate both mutuality and immediacy, taking into consideration delays caused by time difference and the size of the existing user pool.</p>
 			
 			<p class="animate-box"><img src="images/portrade/portrade2.png" class="img-responsive" alt="phase 2 of user studies on WhatsApp"></p>
 					</div>
