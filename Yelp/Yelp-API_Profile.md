@@ -182,7 +182,8 @@ Now down to business *badumtish. The general request is:
 Go ahead and stick the general request above into your Postman GET request line.
 
 The parameters for phone search are:
- | Name | Description |
+
+| Name | Description |
 | ------ | ------ |
 | phone | (Required) A phone number starting with the country code and in the format +12345678, for example |
 | locale | (Optional) Set where you want to localize results to, defaults to en_US. [See list of Yelp locales.](https://www.yelp.com/developers/documentation/v3/supported_locales) |
@@ -192,6 +193,7 @@ We're going to stick with our "acai" theme here, so I looked up "acai" on Google
 So under Params -> Query Params -> KEY we would put "phone", and in VALUE (next to KEY) we would put +16468613279.
 
 Your Postman screen should look like the below:
+
 | KEY | VALUE |
 | ------ | ------ |
 | phone | +16468613279 |
@@ -312,6 +314,7 @@ Let's take a look at Famous Famiglia Pizzeria. Similar to the phone number searc
 Wow... someone found a screw on top of their pizza slice, yum. Don't you just hate when that happens to your pizza? When I go to the Yelp URL provided for the business, the screw pizza above is the most recent image uploaded, so it seems Yelp Fusion API returns an image URL simply to the most recent image at the time of search. So as of 7 February 2020, screw pizza pops up for Famous Famiglia Pizzeria.
 
 Other data, parsed in readable human form:
+
 | Category | Value |
 | ------ | ------ |
 | Is Closed | False (aka Famous Famiglia Pizzeria is open) |
@@ -322,4 +325,5 @@ Other data, parsed in readable human form:
 | Transactions | Pickup, Delivery |
 | Price | $ (lowest price range on Yelp) |
 | Address | 2859 Broadway, New York, NY 10025, US |
+
 ### Thank you for joining me on this delicious journey through the Yelp Fusion API!
