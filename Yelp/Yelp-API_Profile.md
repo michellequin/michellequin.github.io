@@ -63,6 +63,7 @@ The general request looks like this:
 Go ahead and stick the general request into your Postman GET request box.
     
 Autocomplete's parameters are:
+
 | Name | Description |
 | ------ | ------ |
 | text | (Required) input string that autocomplete suggestions are formed from |
