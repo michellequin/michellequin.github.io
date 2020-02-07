@@ -285,6 +285,7 @@ GET https://api.yelp.com/v3/transactions/delivery/search
 Go ahead and stick this general request line into your Postman GET request box.
 
 Parameters for transaction search are:
+
 | Name | Description |
 | ------ | ------ |
 | latitude | (Required when no location is given) decimal latitude of location |
