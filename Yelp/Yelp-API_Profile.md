@@ -116,7 +116,7 @@ Now press the SEND button, and voila:
 }
 ```
 
-We see that we got categories and terms in response to our query. Our acai search gave us autocomplete suggestions of "acai bowls", "juice bars & smoothies and brazilian" for categories, and to "acai", "acai bowl near me" and "acai bowls open now" for terms. The businesses section is empty ( [] means no terms were returned) since we didn't provide a latitude or longitude. Let's try adding latitude, longitude and locale. For kicks, we'll see what autocompletes when we look for acai in London, UK. London's latitude is **51.5074** and its longitude is **0.1278**. Its locale is **en_GB**.
+We see that we got categories and terms in response to our query. Our acai search gave us autocomplete suggestions of "acai bowls", "juice bars & smoothies and brazilian" for categories, and to "acai", "acai bowl near me" and "acai bowls open now" for terms. The businesses section is empty ( [] means no terms were returned) since we didn't provide a latitude or longitude. Let's try adding latitude, longitude and locale. For kicks, we'll see what autocompletes when we look for acai in London, UK. London's latitude is **51.5074** and its longitude is **0.1278**. Its locale is **en_GB**. Remember to include the locale if the latitude/longitude you're searching is NOT in good ol' USA, because the Yelp API has it so that locale defaults to US if no locale parameter is provided, which would give us empty search results. [See the list of available Yelp locales you can choose from.](https://www.yelp.com/developers/documentation/v3/supported_locales)
 
 Now our KEY and VALUE sections should look like this:
 
